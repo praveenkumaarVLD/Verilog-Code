@@ -7,7 +7,7 @@ module basicgates_tb;
                 #10 a=1'b0;b=1'b1;
                 #10 a=1'b1;b=1'b0;
                 #10 a=1'b1;b=1'b1;
-                #50 $finish
+                #50 $finish;
         end
         always&(*)
                 begin
